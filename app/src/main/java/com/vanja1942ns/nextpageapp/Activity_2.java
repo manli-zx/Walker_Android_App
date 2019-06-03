@@ -8,23 +8,36 @@ import android.widget.Button;
 
 public class Activity_2 extends AppCompatActivity {
 
-    private Button mButton1;
+    private Button mButton2;
+    private Button mButton3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
-        mButton1 = findViewById(R.id.button2);
-        mButton1.setOnClickListener(new View.OnClickListener() {
+        mButton2 = findViewById(R.id.button2);
+        mButton3 = findViewById(R.id.button3);
+        mButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity1();
             }
         });
+        mButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity3();
+            }
+        });
+
     }
     public void openActivity1(){
         Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+    public void openActivity3(){
+        Intent intent = new Intent(this,Activity_3.class);
         startActivity(intent);
     }
 }
