@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">NextPageApp</string>
+    <string name="app_name">Walker</string>
+
+
+
+        <string name="true_button">True</string>
+        <string name="false_button">False</string>
+        <string name="initial_score">Score 0/13</string>
+
+        <string name="incorrect_toast">Wrong!</string>
+        <string name="correct_toast">You got it!</string>
+
+        <string name="question_1">Regular exercise of any kind can improve confidence,energy, weight control and reduce stress.</string>
+        <string name="question_2">Walking can reduce the risk of coronary heart disease, strokes, diabetes, high blood pressure and osteoporosis.</string>
+        <string name="question_3">Scientific studies have also shown that walking has other benefits besides its physical benefits.</string>
+        <string name="question_4">Walking can improve memory skills, learning ability, concentration and abstract reasoning
+</string>
+        <string name="question_5">Sustained walking sessions for a minimum period of 30 minutes a day, five days a week, with the correct walking posture</string>
+        <string name="question_6">Walking also improves bone health, especially strengthening the hip bone.  </string>
+        <string name="question_7">Walking can lower the harmful low-density lipoprotein (LDL) cholesterol, and raising the useful high-density lipoprotein (HDL) cholesterol.
+  </string>
+        <string name="question_8">Studies have found that walking may also help prevent dementia and Alzheimers.</string>
+        <string name="question_9">Walking can increase the risk of coronary heart disease, strokes, diabetes.</string>
+        <string name="question_10">Walking can not improve bone health, especially strengthening the hip bone.</string>
+        <string name="question_11">Scientific studies have also shown that walking has no benefits.</string>
+        <string name="question_12">Regular exercise of any kind can not improve confidence,energy.</string>
+        <string name="question_13">Walking can not lower the harmful low-density lipoprotein (LDL) cholesterol.</string>
+
+    <string name="action_add">Add new Task</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="meny">Meny</string>
+    <string name="quiz">Quiz</string>
+    <string name="tasks">Tasks</string>
+
 </resources>

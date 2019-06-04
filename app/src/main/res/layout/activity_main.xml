@@ -17,7 +17,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_alignParentLeft="true"
-        android:text="Meny" />
+        android:text="@string/meny" />
 
     <Button
         android:id="@+id/button"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Quiz" />
+        android:text="@string/quiz" />
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -33,6 +33,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_alignParentRight="true"
-        android:text="Tasks" />
+        android:text="@string/tasks" />
 
 </RelativeLayout>
